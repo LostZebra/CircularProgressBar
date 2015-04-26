@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF790A3F1AEC6DBA00AC3368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF790A3E1AEC6DBA00AC3368 /* AppDelegate.swift */; };
+		FF790A411AEC6DBA00AC3368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF790A401AEC6DBA00AC3368 /* ViewController.swift */; };
+		FF790A441AEC6DBA00AC3368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF790A421AEC6DBA00AC3368 /* Main.storyboard */; };
+		FF790A461AEC6DBA00AC3368 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF790A451AEC6DBA00AC3368 /* Images.xcassets */; };
+		FF790A491AEC6DBA00AC3368 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF790A471AEC6DBA00AC3368 /* LaunchScreen.xib */; };
+		FF790A551AEC6DBA00AC3368 /* CircularProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF790A541AEC6DBA00AC3368 /* CircularProgressBarTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF790A4F1AEC6DBA00AC3368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF790A311AEC6DBA00AC3368 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF790A381AEC6DBA00AC3368;
+			remoteInfo = CircularProgressBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF790A391AEC6DBA00AC3368 /* CircularProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF790A3D1AEC6DBA00AC3368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF790A3E1AEC6DBA00AC3368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF790A401AEC6DBA00AC3368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF790A431AEC6DBA00AC3368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF790A451AEC6DBA00AC3368 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF790A481AEC6DBA00AC3368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF790A4E1AEC6DBA00AC3368 /* CircularProgressBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularProgressBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF790A531AEC6DBA00AC3368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF790A541AEC6DBA00AC3368 /* CircularProgressBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF790A361AEC6DBA00AC3368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF790A4B1AEC6DBA00AC3368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF790A301AEC6DBA00AC3368 = {
+			isa = PBXGroup;
+			children = (
+				FF790A3B1AEC6DBA00AC3368 /* CircularProgressBar */,
+				FF790A511AEC6DBA00AC3368 /* CircularProgressBarTests */,
+				FF790A3A1AEC6DBA00AC3368 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF790A3A1AEC6DBA00AC3368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF790A391AEC6DBA00AC3368 /* CircularProgressBar.app */,
+				FF790A4E1AEC6DBA00AC3368 /* CircularProgressBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF790A3B1AEC6DBA00AC3368 /* CircularProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				FF790A3E1AEC6DBA00AC3368 /* AppDelegate.swift */,
+				FF790A401AEC6DBA00AC3368 /* ViewController.swift */,
+				FF790A421AEC6DBA00AC3368 /* Main.storyboard */,
+				FF790A451AEC6DBA00AC3368 /* Images.xcassets */,
+				FF790A471AEC6DBA00AC3368 /* LaunchScreen.xib */,
+				FF790A3C1AEC6DBA00AC3368 /* Supporting Files */,
+			);
+			path = CircularProgressBar;
+			sourceTree = "<group>";
+		};
+		FF790A3C1AEC6DBA00AC3368 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF790A3D1AEC6DBA00AC3368 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF790A511AEC6DBA00AC3368 /* CircularProgressBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF790A541AEC6DBA00AC3368 /* CircularProgressBarTests.swift */,
+				FF790A521AEC6DBA00AC3368 /* Supporting Files */,
+			);
+			path = CircularProgressBarTests;
+			sourceTree = "<group>";
+		};
+		FF790A521AEC6DBA00AC3368 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF790A531AEC6DBA00AC3368 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF790A381AEC6DBA00AC3368 /* CircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF790A581AEC6DBA00AC3368 /* Build configuration list for PBXNativeTarget "CircularProgressBar" */;
+			buildPhases = (
+				FF790A351AEC6DBA00AC3368 /* Sources */,
+				FF790A361AEC6DBA00AC3368 /* Frameworks */,
+				FF790A371AEC6DBA00AC3368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularProgressBar;
+			productName = CircularProgressBar;
+			productReference = FF790A391AEC6DBA00AC3368 /* CircularProgressBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF790A4D1AEC6DBA00AC3368 /* CircularProgressBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF790A5B1AEC6DBA00AC3368 /* Build configuration list for PBXNativeTarget "CircularProgressBarTests" */;
+			buildPhases = (
+				FF790A4A1AEC6DBA00AC3368 /* Sources */,
+				FF790A4B1AEC6DBA00AC3368 /* Frameworks */,
+				FF790A4C1AEC6DBA00AC3368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF790A501AEC6DBA00AC3368 /* PBXTargetDependency */,
+			);
+			name = CircularProgressBarTests;
+			productName = CircularProgressBarTests;
+			productReference = FF790A4E1AEC6DBA00AC3368 /* CircularProgressBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF790A311AEC6DBA00AC3368 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = xiaoyong;
+				TargetAttributes = {
+					FF790A381AEC6DBA00AC3368 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					FF790A4D1AEC6DBA00AC3368 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = FF790A381AEC6DBA00AC3368;
+					};
+				};
+			};
+			buildConfigurationList = FF790A341AEC6DBA00AC3368 /* Build configuration list for PBXProject "CircularProgressBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF790A301AEC6DBA00AC3368;
+			productRefGroup = FF790A3A1AEC6DBA00AC3368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF790A381AEC6DBA00AC3368 /* CircularProgressBar */,
+				FF790A4D1AEC6DBA00AC3368 /* CircularProgressBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF790A371AEC6DBA00AC3368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF790A441AEC6DBA00AC3368 /* Main.storyboard in Resources */,
+				FF790A491AEC6DBA00AC3368 /* LaunchScreen.xib in Resources */,
+				FF790A461AEC6DBA00AC3368 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF790A4C1AEC6DBA00AC3368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF790A351AEC6DBA00AC3368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF790A411AEC6DBA00AC3368 /* ViewController.swift in Sources */,
+				FF790A3F1AEC6DBA00AC3368 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF790A4A1AEC6DBA00AC3368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF790A551AEC6DBA00AC3368 /* CircularProgressBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF790A501AEC6DBA00AC3368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF790A381AEC6DBA00AC3368 /* CircularProgressBar */;
+			targetProxy = FF790A4F1AEC6DBA00AC3368 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF790A421AEC6DBA00AC3368 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF790A431AEC6DBA00AC3368 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF790A471AEC6DBA00AC3368 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF790A481AEC6DBA00AC3368 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF790A561AEC6DBA00AC3368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF790A571AEC6DBA00AC3368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF790A591AEC6DBA00AC3368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircularProgressBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF790A5A1AEC6DBA00AC3368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircularProgressBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF790A5C1AEC6DBA00AC3368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CircularProgressBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircularProgressBar.app/CircularProgressBar";
+			};
+			name = Debug;
+		};
+		FF790A5D1AEC6DBA00AC3368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CircularProgressBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircularProgressBar.app/CircularProgressBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF790A341AEC6DBA00AC3368 /* Build configuration list for PBXProject "CircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF790A561AEC6DBA00AC3368 /* Debug */,
+				FF790A571AEC6DBA00AC3368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF790A581AEC6DBA00AC3368 /* Build configuration list for PBXNativeTarget "CircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF790A591AEC6DBA00AC3368 /* Debug */,
+				FF790A5A1AEC6DBA00AC3368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF790A5B1AEC6DBA00AC3368 /* Build configuration list for PBXNativeTarget "CircularProgressBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF790A5C1AEC6DBA00AC3368 /* Debug */,
+				FF790A5D1AEC6DBA00AC3368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF790A311AEC6DBA00AC3368 /* Project object */;
+}
