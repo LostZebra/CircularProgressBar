@@ -5,12 +5,12 @@ A circular progressbar which is used to indicate either deterministic or non-det
 <b>Deterministic progress behavior:</b>
 Progress can be updated using a fixed percentage value.
 
-![](https://raw.githubusercontent.com/LostZebra/CircularProgressBar/master/ForTesting/Demo/Deterministic.gif?token=AHh7kXz9X0b7PhKp19Kd8Jz2EjaOkmnMks5VRVBMwA%3D%3D)
+![](https://raw.githubusercontent.com/LostZebra/CircularProgressBar/master/CircularProgressBar/Demo/Deterministic.gif?token=AHh7kXz9X0b7PhKp19Kd8Jz2EjaOkmnMks5VRVBMwA%3D%3D)
 
 <b>Non-deterministic progress behavior:</b>
 Infinite loop animation indicating something is "In Progress".
 
-![](https://raw.githubusercontent.com/LostZebra/CircularProgressBar/master/ForTesting/Demo/Non-deterministic.gif?token=AHh7kewPsswORLtQEbhqY0i7v_0FnY-uks5VRVCHwA%3D%3D)
+![](https://raw.githubusercontent.com/LostZebra/CircularProgressBar/master/CircularProgressBar/Demo/Non-deterministic.gif?token=AHh7kewPsswORLtQEbhqY0i7v_0FnY-uks5VRVCHwA%3D%3D)
 
 ## Usage
 CircularProgressBar is a subclass of UIView, so it follows the normal behaviors of a UIView.
