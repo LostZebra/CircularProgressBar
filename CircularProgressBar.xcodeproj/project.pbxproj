@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		FF790A3F1AEC6DBA00AC3368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF790A3E1AEC6DBA00AC3368 /* AppDelegate.swift */; };
-		FF790A411AEC6DBA00AC3368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF790A401AEC6DBA00AC3368 /* ViewController.swift */; };
+		FF790A411AEC6DBA00AC3368 /* DemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF790A401AEC6DBA00AC3368 /* DemoController.swift */; };
 		FF790A441AEC6DBA00AC3368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF790A421AEC6DBA00AC3368 /* Main.storyboard */; };
 		FF790A461AEC6DBA00AC3368 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF790A451AEC6DBA00AC3368 /* Images.xcassets */; };
 		FF790A491AEC6DBA00AC3368 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF790A471AEC6DBA00AC3368 /* LaunchScreen.xib */; };
 		FF790A551AEC6DBA00AC3368 /* CircularProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF790A541AEC6DBA00AC3368 /* CircularProgressBarTests.swift */; };
+		FF790A601AEC6E2000AC3368 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF790A5E1AEC6E2000AC3368 /* CircularProgressBar.swift */; };
+		FF790A611AEC6E2000AC3368 /* Demo in Resources */ = {isa = PBXBuildFile; fileRef = FF790A5F1AEC6E2000AC3368 /* Demo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		FF790A391AEC6DBA00AC3368 /* CircularProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF790A3D1AEC6DBA00AC3368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF790A3E1AEC6DBA00AC3368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF790A401AEC6DBA00AC3368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF790A401AEC6DBA00AC3368 /* DemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoController.swift; sourceTree = "<group>"; };
 		FF790A431AEC6DBA00AC3368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF790A451AEC6DBA00AC3368 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FF790A481AEC6DBA00AC3368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FF790A4E1AEC6DBA00AC3368 /* CircularProgressBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularProgressBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF790A531AEC6DBA00AC3368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF790A541AEC6DBA00AC3368 /* CircularProgressBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarTests.swift; sourceTree = "<group>"; };
+		FF790A5E1AEC6E2000AC3368 /* CircularProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		FF790A5F1AEC6E2000AC3368 /* Demo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Demo; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 		FF790A3B1AEC6DBA00AC3368 /* CircularProgressBar */ = {
 			isa = PBXGroup;
 			children = (
+				FF790A5F1AEC6E2000AC3368 /* Demo */,
+				FF790A5E1AEC6E2000AC3368 /* CircularProgressBar.swift */,
 				FF790A3E1AEC6DBA00AC3368 /* AppDelegate.swift */,
-				FF790A401AEC6DBA00AC3368 /* ViewController.swift */,
+				FF790A401AEC6DBA00AC3368 /* DemoController.swift */,
 				FF790A421AEC6DBA00AC3368 /* Main.storyboard */,
 				FF790A451AEC6DBA00AC3368 /* Images.xcassets */,
 				FF790A471AEC6DBA00AC3368 /* LaunchScreen.xib */,
@@ -193,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF790A441AEC6DBA00AC3368 /* Main.storyboard in Resources */,
+				FF790A611AEC6E2000AC3368 /* Demo in Resources */,
 				FF790A491AEC6DBA00AC3368 /* LaunchScreen.xib in Resources */,
 				FF790A461AEC6DBA00AC3368 /* Images.xcassets in Resources */,
 			);
@@ -212,8 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF790A411AEC6DBA00AC3368 /* ViewController.swift in Sources */,
+				FF790A411AEC6DBA00AC3368 /* DemoController.swift in Sources */,
 				FF790A3F1AEC6DBA00AC3368 /* AppDelegate.swift in Sources */,
+				FF790A601AEC6E2000AC3368 /* CircularProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
